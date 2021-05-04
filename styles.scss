@@ -4,6 +4,7 @@ $blue: #345995;
 $light-blue: #7799cf;
 $yellow: #eac435;
 $grey-font: #949494;
+$fade: all 0.25s ease-in-out;
 
 * {
   margin: 0;
@@ -58,10 +59,16 @@ $grey-font: #949494;
   margin: 5px;
   border-radius: 5px;
   font-size: 1.3em;
+  transition: $fade;
+
+  h3 {
+    font-size: 1.3em;
+  }
 
   &:hover {
     border: 1px $light-blue solid;
     cursor: pointer;
+    transform: scale(1.05);
   }
 }
 
