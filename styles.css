@@ -48,7 +48,9 @@
 }
 
 .cards-container {
+  margin: 0 auto;
   width: 100%;
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,7 +75,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 140px;
+  width: 160px;
   border: 1px solid grey;
   margin: 5px;
   border-radius: 5px;
@@ -83,7 +85,7 @@
 }
 
 .card h3 {
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
 .card:hover {
