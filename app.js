@@ -23,6 +23,8 @@ cards.forEach((card) => {
     const audio = new Audio(`audio/${cardValue}.mp3`);
     audio.addEventListener('canplaythrough', () => {
       audio.play();
+      audio.src = `audio/${cardValue}.mp3`;
+      audio.play();
     });
   });
 });
