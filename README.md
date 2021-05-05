@@ -8,7 +8,7 @@
 
 # Live Preview
 
-[View Project](https://rawcdn.githack.com/jacobrees/Russian-Alphabet/97e361379e874522d0c375683c8627ea93e50861/index.html)
+[View Project](https://rawcdn.githack.com/jacobrees/Russian-Alphabet/7f54659b85cc93bf498a5ad479fcc14221f8b15a/index.html)
 
 # Getting Started
 
