@@ -14,3 +14,15 @@ toggleDescriptionsBtn.addEventListener('click', () => {
     }
   });
 });
+
+const cards = document.querySelectorAll('.card');
+
+cards.forEach((card) => {
+  card.addEventListener('click', (e) => {
+    const cardValue = e.currentTarget.childNodes[1].textContent;
+    const audio = new Audio(`audio/${cardValue}.mp3`);
+    audio.addEventListener('canplaythrough', () => {
+      audio.play();
+    });
+  });
+});
