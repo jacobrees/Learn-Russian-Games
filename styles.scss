@@ -90,7 +90,7 @@ $fade: all 0.25s ease-in-out;
   transition: $fade;
 
   h3 {
-    font-size: 1.4em;
+    font-size: 28px;
   }
 
   &:hover {
@@ -102,6 +102,10 @@ $fade: all 0.25s ease-in-out;
 
 b {
   font-weight: bold;
+}
+
+.display-none {
+  display: none;
 }
 
 /* Large devices */
