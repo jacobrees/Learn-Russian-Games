@@ -19,7 +19,7 @@ $ cd <folder>
 ```
 
 ```
-$ git clone git@github.com:jacobrees/Russian-Alphabet.git
+$ git clone git@github.com:jacobrees/Learn-Russian-Games.git
 ```
 
 To launch an instance of this app. Inside of your terminal you will need to navigate into the repository you have just cloned. You will do this by using `cd` inside of your terminal. 
@@ -29,7 +29,7 @@ Once you are inside of this folder run the command `google-chrome index.html` an
 Below shows the following commands you will need to run to achieve this:
 
 ```
-$ cd Russian-Alphabet
+$ cd Learn-Russian-Games
 ```
 
 ```
